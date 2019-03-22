@@ -1,0 +1,134 @@
+# depslib dependency file v1.0
+1481659977 source:c:\users\domin\desktop\fish\check_how_many_fishes.c
+	"check_how_many_fishes.h"
+
+1483471887 c:\users\domin\desktop\fish\include\check_how_many_fishes.h
+	<stdio.h>
+	<stdlib.h>
+
+1483472090 source:c:\users\domin\desktop\fish\src\check_coordinates.c
+	"check_coordinates.h"
+
+1483472090 c:\users\domin\desktop\fish\include\check_coordinates.h
+	<stdio.h>
+	<stdlib.h>
+
+1483471887 source:c:\users\domin\desktop\fish\src\check_how_many_fishes.c
+	"check_how_many_fishes.h"
+
+1483471995 source:c:\users\domin\desktop\fish\src\check_penguin.c
+	"check_penguin.h"
+
+1483471995 c:\users\domin\desktop\fish\include\check_penguin.h
+	<stdio.h>
+	<stdlib.h>
+
+1483471800 source:c:\users\domin\desktop\fish\src\check_valid_move.c
+	"check_valid_move.h"
+
+1483471800 c:\users\domin\desktop\fish\include\check_valid_move.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
+1483916585 source:c:\users\domin\desktop\fish\src\move_penguin.c
+	"move_penguin.h"
+
+1483916585 c:\users\domin\desktop\fish\include\move_penguin.h
+	"define_variable.h"
+	"check_valid_move.h"
+	"check_coordinates.h"
+
+1483915773 source:c:\users\domin\desktop\fish\src\place_penguin.c
+	"place_penguin.h"
+
+1483915881 c:\users\domin\desktop\fish\include\place_penguin.h
+	"define_variable.h"
+	"check_valid_move.h"
+	"check_coordinates.h"
+
+1484248888 source:c:\users\domin\desktop\fish\main.c
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	"place_penguin.h"
+	"move_penguin.h"
+	"read_input_file.h"
+	"write_output_file.h"
+	"update_player_penguin_location.h"
+	"choose_penguin_for_placement.h"
+	"choose_penguin_for_movement.h"
+	"human_placement.h"
+	"human_movement.h"
+
+1484154517 c:\users\domin\desktop\fish\include\read_input_file.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<windows.h>
+	"define_variable.h"
+
+1484079021 c:\users\domin\desktop\fish\include\define_variable.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+
+1484154593 c:\users\domin\desktop\fish\include\write_output_file.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	"define_variable.h"
+
+1484154517 source:c:\users\domin\desktop\fish\src\read_input_file.c
+	"read_input_file.h"
+
+1484154593 source:c:\users\domin\desktop\fish\src\write_output_file.c
+	"write_output_file.h"
+
+1483521863 c:\users\domin\desktop\fish\include\update_player_penguin_location.h
+	"define_variable.h"
+
+1483519645 source:c:\users\domin\desktop\fish\src\update_player_penguin_location.c
+	"update_player_penguin_location.h"
+
+1484158673 source:c:\users\domin\desktop\fish\src\choose_penguin_for_placement.c
+	"choose_penguin_for_placement.h"
+
+1484155542 c:\users\domin\desktop\fish\include\choose_penguin_for_placement.h
+	"define_variable.h"
+	"check_valid_move.h"
+	"check_coordinates.h"
+
+1484063779 c:\users\domin\desktop\fish\include\choose_penguin_for_movement.h
+	"define_variable.h"
+	<math.h>
+	<limits.h>
+
+1484074404 source:c:\users\domin\desktop\fish\src\choose_penguin_for_movement.c
+	"choose_penguin_for_movement.h"
+
+1484250902 source:c:\users\domin\desktop\fish\src\human_movement.c
+	"human_movement.h"
+
+1484249291 c:\users\domin\desktop\fish\include\human_movement.h
+	"define_variable.h"
+	<windows.h>
+	"check_coordinates.h"
+	"check_valid_move.h"
+	"check_human_move.h"
+
+1484250902 source:c:\users\domin\desktop\fish\src\human_placement.c
+	"human_placement.h"
+
+1484078512 c:\users\domin\desktop\fish\include\human_placement.h
+	"define_variable.h"
+	<windows.h>
+	"check_coordinates.h"
+
+1484250253 c:\users\domin\desktop\fish\include\check_human_move.h
+	"define_variable.h"
+
+1484250663 source:c:\users\domin\desktop\fish\src\check_human_move.c
+	"check_human_move.h"
+

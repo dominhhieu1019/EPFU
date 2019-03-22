@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="fish" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/fish" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/fish" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/check_coordinates.h" />
+		<Unit filename="include/check_human_move.h" />
+		<Unit filename="include/check_valid_move.h" />
+		<Unit filename="include/choose_penguin_for_movement.h" />
+		<Unit filename="include/choose_penguin_for_placement.h" />
+		<Unit filename="include/define_variable.h" />
+		<Unit filename="include/human_movement.h" />
+		<Unit filename="include/human_placement.h" />
+		<Unit filename="include/move_penguin.h" />
+		<Unit filename="include/place_penguin.h" />
+		<Unit filename="include/read_input_file.h" />
+		<Unit filename="include/update_player_penguin_location.h" />
+		<Unit filename="include/write_output_file.h" />
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/check_coordinates.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/check_human_move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/check_valid_move.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/choose_penguin_for_movement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/choose_penguin_for_placement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/human_movement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/human_placement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/move_penguin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/place_penguin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/read_input_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/update_player_penguin_location.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/write_output_file.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
